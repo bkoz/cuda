@@ -16,6 +16,11 @@ A mini-workshop to learn about compiling and running simple CUDA programs on RHE
 
 `add_cuda`
 
+- Run the profiler.
+
+```bash
+nsys_easy <executable>
+```
 
 Containers core dump cuda programs. I need to investigate CUDA revisions
 between the container and host.
