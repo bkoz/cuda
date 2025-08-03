@@ -16,12 +16,12 @@ A mini-workshop to learn about compiling and running simple CUDA programs on RHE
 
 `nvcc add_cuda.cu -o add_cuda`
 
-`add_cuda`
+`./add_cuda`
 
 - Run the profiler.
 
 ```bash
-nsys_easy <executable>
+nsys_easy add_cuda
 ```
 
 Containers core dump cuda programs. I need to investigate CUDA revisions
