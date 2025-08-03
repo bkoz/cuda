@@ -7,9 +7,11 @@ A mini-workshop to learn about compiling and running simple CUDA programs on RHE
   - `export PATH=$PATH:/usr/local/cuda/bin`
   - Even better, modify your `~/.bashrc`
 
-- Clone https://github.com/harrism/nsys_easy
-	- Move the `nsys_easy` script into a directory contained in $PATH
-	- `mkdir $HOME/.local/bin` is a good option
+- git clone https://github.com/harrism/nsys_easy
+- cd `nsys_easy`
+- `mkdir $HOME/.local/bin` is a good option
+- `cp nsys_easy $HOME/.local/bin`
+
 - Compiling and running programs
 
 `nvcc add_cuda.cu -o add_cuda`
