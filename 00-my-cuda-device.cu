@@ -20,6 +20,7 @@ int main() {
     printf("  totalGlobalMem = %3.3f (GB)\n", (float)prop.totalGlobalMem / 1073741824);
     printf("  multiProcessorCount = %d\n", prop.multiProcessorCount);
     printf("  maxBlocksPerMultiProcessor = %d\n", prop.maxBlocksPerMultiProcessor);
+    printf("  maxThreadsPerMultiProcessor = %d\n", prop.maxThreadsPerMultiProcessor);
     printf("  maxThreadsPerBlock = %d\n", prop.maxThreadsPerBlock);
     printf("  maxThreadsDim = %d, %d, %d\n", prop.maxThreadsDim[0], prop.maxThreadsDim[1], prop.maxThreadsDim[2]);
     printf("  maxGridSize = %d, %d, %d\n", prop.maxGridSize[0], prop.maxGridSize[1], prop.maxGridSize[2]);
