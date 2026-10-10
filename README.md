@@ -1,7 +1,6 @@
 # CUDA Workshop
 
-A mini-workshop to learn about compiling and running simple CUDA programs
-in Google Colab or Red Hat Openshift AI using Jupyter Notebooks.
+A mini-workshop to learn about compiling and running simple CUDA programs.
 
 ### Prereqs
 - A platform that supports Jupyter Notebook with a CUDA runtime and compiler.
