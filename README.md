@@ -1,35 +1,14 @@
 # CUDA Workshop
 
-A mini-workshop to learn about compiling and running simple CUDA programs on RHEL.
+A mini-workshop to learn about compiling and running simple CUDA programs
+in Google Colab or Red Hat Openshift AI using Jupyter Notebooks.
 
-- Order the Base Red Hat AI Inference Server (RHAIIS) from the demo catalog.
-- Perform the following to prepare the system to compile and run CUDA programs.
-  - `export PATH=$PATH:/usr/local/cuda/bin`
-  - Even better, modify your `~/.bashrc`
+### Prereqs
+- A platform that supports Jupyter Notebook with a CUDA runtime and compiler.
+- Examples include Google Colab and Red Hat Openshift AI
+- 
 
-- git clone https://github.com/harrism/nsys_easy
-- cd `nsys_easy`
-- `mkdir $HOME/.local/bin` is a good option
-- `cp nsys_easy $HOME/.local/bin`
-
-- Compiling and running programs
-
-`nvcc add_cuda.cu -o add_cuda`
-
-`./add_cuda`
-
-- Run the profiler.
-
-```bash
-nsys_easy add_cuda
-```
-
-Containers core dump cuda programs. I need to investigate CUDA revisions
-between the container and host.
-
-```bash
-podman run -it --rm -v $(pwd):/scratch:z nvcr.io/nvidia/cuda-dl-base:25.06-cuda12.9-devel-ubuntu24.04 bash
-```
+##### To get started, launch the workshop notebook.
 
 #### References
 https://developer.nvidia.com/blog/even-easier-introduction-cuda/
