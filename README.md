@@ -1,4 +1,4 @@
-# CUDA Workshop
+# CUDA Workshop (under development)
 
 A mini-workshop to learn about compiling and running simple CUDA programs.
 
