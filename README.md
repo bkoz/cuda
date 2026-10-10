@@ -3,7 +3,7 @@
 A mini-workshop to learn about compiling and running simple CUDA programs.
 
 ### Prereqs
-- A platform that supports Jupyter Notebook with a CUDA runtime and compiler.
+- A platform that supports Jupyter Notebooks with a CUDA runtime and compiler.
 - Examples include Google Colab and Red Hat Openshift AI
 - 
 
