@@ -11,7 +11,12 @@ A mini-workshop to learn about compiling and running simple CUDA programs.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bkoz/cuda/blob/main/03_rgb2gray.ipynb)
 
-#### References
+###### References
+
+[CUDA overview from SC2011](https://www.nvidia.com/docs/io/116711/sc11-cuda-c-basics.pdf)
+
+[CUDA Tutorial](https://cuda-tutorial.readthedocs.io/en/latest/tutorials/tutorial02/)
+
 https://developer.nvidia.com/blog/even-easier-introduction-cuda/
 
 https://github.com/harrism/mini-nbody.git
