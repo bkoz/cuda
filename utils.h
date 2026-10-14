@@ -173,8 +173,8 @@ __host__ std::tuple<std::string, std::string, int> parseCommandLineArguments(int
 {
     cout << "Parsing CLI arguments\n";
     int threadsPerBlock = 16;
-    std::string inputImage = "pixels.raw";
-    std::string outputImage = "grey.raw";
+    std::string inputImage = "images/pixels.raw";
+    std::string outputImage = "images/grey.raw";
 
     for (int i = 1; i < argc; i++)
     {
